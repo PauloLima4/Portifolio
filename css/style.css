@@ -13,7 +13,7 @@
 :root {
   --bg-color: #fdfdfd;
   --text-color: #333;
-  --main-color: #4b83fc;
+  --main-color: #5e17eb;
   --white-color: #fdfdfd;
   --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -27,6 +27,7 @@
   --bg-color: #0b061f;
   --text-color: #fdfdfd;
   --shadow-color: rgba(0, 0, 0, .7);
+  --main-color: #5e17eb;
 }
 
 html {
@@ -50,6 +51,15 @@ body {
   align-items: center;
   z-index: 100;
   transition: 0.5s;
+}
+
+.titulo-int {
+  color: var(--main-color);
+}
+
+.link-insta {
+  color: var(--main-color);
+  size: 20px;
 }
 
 .header.sticky {
