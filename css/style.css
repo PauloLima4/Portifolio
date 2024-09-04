@@ -57,11 +57,6 @@ body {
   color: var(--main-color);
 }
 
-.link-insta {
-  color: var(--main-color);
-  size: 20px;
-}
-
 .header.sticky {
   background: var(--bg-color);
   box-shadow: 0 0.1rem 1rem var(--shadow-color);
